@@ -5,7 +5,7 @@ import Image from "next/image";
 import demo from "../assets/testimonial5.png";
 export default function Testimonial() {
   return (
-    <div className="bg-[#fff8f3] my-5 pb-12 font-sans">
+    <div id="testimonial" className="bg-[#fff8f3] my-5 pb-12 font-sans">
       <div className="align-middle items-center m-auto">
         <div className=" text-center p-9 font-sans ">
           <div>Testimonial</div>

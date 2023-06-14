@@ -49,7 +49,7 @@ const HeroSection = () => {
               </a>
 
               <a
-                href="#"
+                href="#contact"
                 class="block w-full rounded-full bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
               >
                 Learn More

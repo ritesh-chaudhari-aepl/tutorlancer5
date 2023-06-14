@@ -15,7 +15,7 @@ const Features = () => {
   };
 
   return (
-    <section className="bg-white text-black">
+    <section id="features" className="bg-white text-black">
       <div className="mx-auto max-w-screen-x  lg:mt-0 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Features</h2>
