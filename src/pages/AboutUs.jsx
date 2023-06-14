@@ -7,8 +7,8 @@ const AboutUs = () => {
     <div>
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-12 lg:px-8">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16">
+            <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 md:order-last lg:h-full">
               <Image
                 alt="Party"
                 src={about}
@@ -16,7 +16,7 @@ const AboutUs = () => {
               />
             </div>
 
-            <div className="lg:py-16">
+            <div className="lg:py-16 text-center md:text-left">
               <h6 className="uppercase font-bold">about us</h6>
               <h2 className="text-3xl capitalize font-bold sm:text-4xl">why you should choose us</h2>
 

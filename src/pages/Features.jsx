@@ -1,8 +1,13 @@
 "use client";
 import React from "react";
-import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import Image from "next/image";
 import feature from "../assets/feature5.png";
+import HeadphonesOutlinedIcon from '@mui/icons-material/HeadphonesOutlined';
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import SellIcon from '@mui/icons-material/Sell';
+import FindInPageOutlinedIcon from '@mui/icons-material/FindInPageOutlined';
+import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
+import DonutLargeOutlinedIcon from '@mui/icons-material/DonutLargeOutlined';
 
 const Features = () => {
   const iconstyle = {
@@ -11,7 +16,7 @@ const Features = () => {
 
   return (
     <section className="bg-white text-black">
-      <div className="mx-auto max-w-screen-x  lg:mt-16 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
+      <div className="mx-auto max-w-screen-x  lg:mt-0 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="text-3xl font-bold sm:text-4xl">Features</h2>
 
@@ -24,13 +29,13 @@ const Features = () => {
 
         <div className="mt-12 items-center grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3 ">
           <div className="flex flex-col gap-4">
-            <a className="block flex flex-col items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                <PeopleOutlinedIcon style={iconstyle} />
+            <a className="text-center items-center flex flex-col md:items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <HeadphonesOutlinedIcon style={iconstyle} />
               </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl capitalize font-bold text-black">
+                24/7 support
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -40,13 +45,13 @@ const Features = () => {
               </p>
             </a>
 
-            <a className="block flex flex-col items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                <PeopleOutlinedIcon style={iconstyle} />
+            <a className="text-center items-center flex flex-col md:items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <AccessAlarmIcon style={iconstyle} />
               </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl capitalize font-bold text-black">
+                on time delivery
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -56,13 +61,13 @@ const Features = () => {
               </p>
             </a>
 
-            <a className="block flex flex-col items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                <PeopleOutlinedIcon style={iconstyle} />
+            <a className="text-center items-center flex flex-col md:items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <SellIcon style={iconstyle} />
               </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl capitalize font-bold text-black">
+                competitive pricing
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -76,13 +81,13 @@ const Features = () => {
             <Image src={feature}></Image>
           </div>
           <div className="flex flex-col gap-4">
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                <PeopleOutlinedIcon style={iconstyle} />
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <FindInPageOutlinedIcon style={iconstyle} />
               </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl capitalize font-bold text-black">
+                plagiarism free
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -92,13 +97,13 @@ const Features = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                <PeopleOutlinedIcon style={iconstyle} />
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <MonetizationOnOutlinedIcon style={iconstyle} />
               </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl capitalize font-bold text-black">
+                refundable
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -108,13 +113,13 @@ const Features = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                <PeopleOutlinedIcon style={iconstyle} />
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <DonutLargeOutlinedIcon style={iconstyle} />
               </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl capitalize font-bold text-black">
+                unlimited revisions
               </h2>
 
               <p className="mt-1 text-sm text-black">

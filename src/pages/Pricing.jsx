@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
-import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import LocalActivityOutlinedIcon from "@mui/icons-material/LocalActivityOutlined";
+import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 
 const Pricing = () => {
   const iconstyle = {
@@ -24,8 +26,8 @@ const Pricing = () => {
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3 lg:grid-cols-3 ">
             <div className="wrapper grid-flow-col block rounded-xl border text-center border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="card items-center gap-4 flex flex-col">
-                <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                  <PeopleOutlinedIcon style={iconstyle} />
+                <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                  <ShoppingCartOutlinedIcon style={iconstyle} />
                 </div>
 
                 <ul className="grid gap-3">
@@ -50,18 +52,18 @@ const Pricing = () => {
 
             <div className="wrapper grid-flow-col block rounded-xl border text-center border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="card items-center gap-4 flex flex-col">
-                <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                  <PeopleOutlinedIcon style={iconstyle} />
+                <div className="rounded-full border-2 bg-pink-darkPink w-fit text-white border-pink-darkPink p-4">
+                  <LocalActivityOutlinedIcon style={iconstyle} />
                 </div>
 
                 <ul className="grid gap-3">
                   <li className="font-bold font-xl font-QuickSand text-pink-darkPink">
-                    $10 <span className="font-normal text-black">/mon</span>
+                    $35 <span className="font-normal text-black">/mon</span>
                   </li>
-                  <li className="font-bold font-2xl uppercase">pro</li>
-                  <li>1 User</li>
-                  <li>10 GB Storage</li>
-                  <li>Email Support</li>
+                  <li className="font-bold font-2xl uppercase">plus</li>
+                  <li>10 User</li>
+                  <li>30 GB Storage</li>
+                  <li>Priority Email Support</li>
                   <li>Lifetime Updates</li>
                 </ul>
 
@@ -76,18 +78,18 @@ const Pricing = () => {
 
             <div className="wrapper grid-flow-col block rounded-xl border text-center border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="card items-center gap-4 flex flex-col">
-                <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
-                  <PeopleOutlinedIcon style={iconstyle} />
+                <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                  <StarBorderOutlinedIcon style={iconstyle} />
                 </div>
 
                 <ul className="grid gap-3">
                   <li className="font-bold font-xl font-QuickSand text-pink-darkPink">
-                    $10 <span className="font-normal text-black">/mon</span>
+                    $150 <span className="font-normal text-black">/mon</span>
                   </li>
                   <li className="font-bold font-2xl uppercase">pro</li>
-                  <li>1 User</li>
-                  <li>10 GB Storage</li>
-                  <li>Email Support</li>
+                  <li>Unlimited User</li>
+                  <li>Unlimited Storage</li>
+                  <li>24/7 Support</li>
                   <li>Lifetime Updates</li>
                 </ul>
 
