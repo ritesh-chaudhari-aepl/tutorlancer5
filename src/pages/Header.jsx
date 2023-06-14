@@ -16,7 +16,7 @@ const Header = () => {
         scroll
           ? "top-0 z-30 sm:top-0 sm:py-10 bg-primaryWhite shadow-2xl overflow-hidden"
           : "top-0 sm:top-0 py-10"
-      } py-4 sm:py-8 fixed w-full transition-all z-10 bg-primaryWhite`}
+      } py-4 sm:py-7 fixed w-full transition-all z-10 bg-primaryWhite`}
     >
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
@@ -37,7 +37,7 @@ const Header = () => {
             </a>
           </div>
 
-          <div className="hidden xl:block">
+          <div className="hidden md:block">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm">
                 <li>
@@ -124,7 +124,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="block xl:hidden">
+            <div className="block md:hidden">
               <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

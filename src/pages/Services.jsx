@@ -1,6 +1,13 @@
 "use client";
 import React from "react";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
+import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
+import ImportantDevicesOutlinedIcon from "@mui/icons-material/ImportantDevicesOutlined";
+import ScienceOutlinedIcon from "@mui/icons-material/ScienceOutlined";
+import DataUsageOutlinedIcon from "@mui/icons-material/DataUsageOutlined";
+import VideoCameraFrontOutlinedIcon from "@mui/icons-material/VideoCameraFrontOutlined";
+import DriveFileRenameOutlineOutlinedIcon from "@mui/icons-material/DriveFileRenameOutlineOutlined";
+import ContentPasteSearchOutlinedIcon from "@mui/icons-material/ContentPasteSearchOutlined";
 
 const Services = () => {
   const iconstyle = {
@@ -22,13 +29,13 @@ const Services = () => {
           </div>
 
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-            <a className="block rounded-xl border text-webkit-center border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink border-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <PeopleOutlinedIcon style={iconstyle} />
               </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl uppercase font-bold text-black">
+                Online Tutoring
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -38,26 +45,13 @@ const Services = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <AccessTimeOutlinedIcon style={iconstyle} />
+              </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl uppercase font-bold text-black">
+                24/7 Support
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -67,26 +61,13 @@ const Services = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <ImportantDevicesOutlinedIcon style={iconstyle} />
+              </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl uppercase font-bold text-black">
+                live sessions
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -96,26 +77,13 @@ const Services = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <ScienceOutlinedIcon style={iconstyle} />
+              </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl font-bold uppercase text-black">
+                Lab work
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -125,27 +93,13 @@ const Services = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-10 w-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-                NamclassName{" "}
-              </svg>
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <DataUsageOutlinedIcon style={iconstyle} />
+              </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl font-bold uppercase text-black">
+                project help
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -155,26 +109,13 @@ const Services = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <VideoCameraFrontOutlinedIcon style={iconstyle} />
+              </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl font-bold uppercase text-black">
+                video calling support
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -184,26 +125,13 @@ const Services = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <DriveFileRenameOutlineOutlinedIcon style={iconstyle} />
+              </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl font-bold uppercase text-black">
+                writing help
               </h2>
 
               <p className="mt-1 text-sm text-black">
@@ -213,26 +141,13 @@ const Services = () => {
               </p>
             </a>
 
-            <a className="block rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 text-pink-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-                />
-              </svg>
+            <a className="flex flex-col items-center text-center md:block md:text-left rounded-xl border border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+              <div className="rounded-full border-2 bg-white w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
+                <ContentPasteSearchOutlinedIcon style={iconstyle} />
+              </div>
 
-              <h2 className="mt-4 text-xl font-bold text-black">
-                Digital campaigns
+              <h2 className="mt-4 text-xl font-bold uppercase text-black">
+                homework help
               </h2>
 
               <p className="mt-1 text-sm text-black">

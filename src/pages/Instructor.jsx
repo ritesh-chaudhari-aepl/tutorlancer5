@@ -24,7 +24,7 @@ const Instructor = () => {
       <div className="mx-auto max-w-screen-xl py-0 sm:py-16">
         <div className="flex px-6 flex-col items-center gap-8 sm:gap-6 sm:justify-center lg:flex-row sm:ml-0">
           <div className="card1">
-            <div className="relative card rounded-md w-[360px] sm:w-[530px] sm:h-80 p-4 sm:p-6 flex justify-center flex-col gap-2">
+            <div className="relative card rounded-md w-[360px] md:w-[480px] sm:h-80 p-4 sm:p-6 flex justify-center flex-col gap-2">
               <div className="absolute inset-0 w-full overflow-hidden">
                 <Image src={bg1} alt="background image" style={bgstyles1} />
               </div>
@@ -47,7 +47,7 @@ const Instructor = () => {
             </div>
           </div>
           <div className="card2">
-            <div className="relative card rounded-md w-[360px] sm:w-[530px] sm:h-80 p-4 sm:p-6 flex justify-center flex-col gap-2">
+            <div className="relative card rounded-md w-[360px] md:w-[480px] sm:h-80 p-4 sm:p-6 flex justify-center flex-col gap-2">
               <div className="absolute inset-0 w-full overflow-hidden">
                 <Image src={bg2} alt="background image" style={bgstyles2} />
               </div>

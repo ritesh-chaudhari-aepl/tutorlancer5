@@ -12,6 +12,7 @@ const Download = () => {
     backgroundRepeat: "no-repeat",
     width: "-webkit-fill-available",
     height: "auto",
+    minInlineSize: "fit-content",
   };
   return (
     <section
@@ -82,11 +83,11 @@ const Download = () => {
           </div>
         </div>
       </div>
-      <div className="absolute left-[34rem] top-[0rem] xl:left-[57rem] xl:top-[-12rem] lg:left-[38rem]">
+      <div className="absolute left-[34rem] top-[0rem] xl:left-[57rem] xl:top-[-12rem] lg:left-[46rem]">
         <Image
           src={phone}
           alt="phone-gif"
-          className="relative left-12 top-10 mt-4 xl:w-[70%] md:w-[60%] lg:w-[90%]"
+          className="relative top-10 mt-4 xl:w-[100%] lg:w-[80%]"
         />
       </div>
     </section>
