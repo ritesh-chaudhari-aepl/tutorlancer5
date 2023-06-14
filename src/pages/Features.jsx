@@ -2,12 +2,12 @@
 import React from "react";
 import Image from "next/image";
 import feature from "../assets/feature5.png";
-import HeadphonesOutlinedIcon from '@mui/icons-material/HeadphonesOutlined';
-import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
-import SellIcon from '@mui/icons-material/Sell';
-import FindInPageOutlinedIcon from '@mui/icons-material/FindInPageOutlined';
-import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
-import DonutLargeOutlinedIcon from '@mui/icons-material/DonutLargeOutlined';
+import HeadphonesOutlinedIcon from "@mui/icons-material/HeadphonesOutlined";
+import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
+import SellIcon from "@mui/icons-material/Sell";
+import FindInPageOutlinedIcon from "@mui/icons-material/FindInPageOutlined";
+import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
+import DonutLargeOutlinedIcon from "@mui/icons-material/DonutLargeOutlined";
 
 const Features = () => {
   const iconstyle = {
@@ -81,7 +81,7 @@ const Features = () => {
             <Image src={feature}></Image>
           </div>
           <div className="flex flex-col gap-4">
-            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <FindInPageOutlinedIcon style={iconstyle} />
               </div>
@@ -97,7 +97,7 @@ const Features = () => {
               </p>
             </a>
 
-            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <MonetizationOnOutlinedIcon style={iconstyle} />
               </div>
@@ -113,7 +113,7 @@ const Features = () => {
               </p>
             </a>
 
-            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <DonutLargeOutlinedIcon style={iconstyle} />
               </div>

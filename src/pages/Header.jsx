@@ -37,7 +37,7 @@ const Header = () => {
             </a>
           </div>
 
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm">
                 <li>
@@ -124,7 +124,7 @@ const Header = () => {
               </div>
             </div>
 
-            <div className="block md:hidden">
+            <div className="block lg:hidden">
               <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
