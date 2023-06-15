@@ -2,7 +2,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
+import { HiOutlineX } from "react-icons/hi";
+import { AiOutlineMenu } from "react-icons/ai";
+import MobileNav from "@/components/navbar/MobileNav";
+
 const Header = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  s;
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -125,8 +131,16 @@ const Header = () => {
             </div>
 
             <div className="block lg:hidden">
-              <button className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
-                <svg
+              <button
+                className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
+                onClick={() => setIsMobile(!isMobile)}
+              >
+                {isMobile ? (
+                  <HiOutlineX className="text-3xl text-primary" />
+                ) : (
+                  <AiOutlineMenu className="text-3xl text-secondary" />
+                )}
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
                   fill="none"
@@ -139,8 +153,15 @@ const Header = () => {
                     stroke-linejoin="round"
                     d="M4 6h16M4 12h16M4 18h16"
                   />
-                </svg>
+                </svg> */}
               </button>
+            </div>
+            <div
+              className={`${
+                isMobile ? "left-0" : "-left-full"
+              }  fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all`}
+            >
+              <MobileNav />
             </div>
           </div>
         </div>

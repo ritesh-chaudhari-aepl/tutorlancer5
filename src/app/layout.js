@@ -1,4 +1,4 @@
-import Header from '@/pages/header'
+// import Header from '@/pages/header'
 import './globals.css'
 
 export const metadata = {
@@ -11,8 +11,8 @@ export default function RootLayout({ children }) {
     <>
     <html lang="en">
       <body>
-        <Header/>
-        <main className='mt-24'>{children}</main>
+        {/* <Header/> */}
+        <main>{children}</main>
       </body>
     </html>
     </>
