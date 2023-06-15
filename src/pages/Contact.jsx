@@ -3,9 +3,10 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-primaryWhite">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-        <h3 className="text-center font-bold font-QuickSand text-3xl  sm:text-[28px]">
-          Contact Us <br />
-        </h3>
+        <div className="flex flex-col items-center">
+          <h2 className="text-3xl font-bold mb-2 sm:text-4xl">Contact Us</h2>
+          <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
+        </div>
         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div className=" p-8 lg:col-span-3 lg:p-12">
             <form action="" className="space-y-4">
