@@ -8,7 +8,7 @@ import MobileNav from "@/components/navbar/MobileNav";
 
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
-  s;
+  
   const [scroll, setScroll] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
