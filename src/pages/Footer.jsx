@@ -1,16 +1,17 @@
 import Image from "next/image";
-import phone from "../assets/phone.gif";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
     <footer aria-label="Site Footer" className="bg-pink-light text-black">
       <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap lg:flex-row lg:gap-28">
+        <div className="flex sm:items-center sm:text-center md:items-start md:text-left flex-col gap lg:flex-row lg:gap-28">
           <div className="flex flex-col basis-1/2 ">
             <div className="flex justify-center text-black sm:justify-start">
-              <span className="text-[25px] tracking-[10px] border border-white p-2">
+              {/* <span className="text-[25px] tracking-[10px] border border-white p-2">
                 LOGO
-              </span>
+              </span> */}
+              <Image src={logo} className="w-24" alt="logo" />
             </div>
             <div className="flex flex-col mt-10 gap-2 leading-[30px] ">
               <p>
@@ -104,7 +105,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex basis-1/4 flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
+          <div className="flex basis-1/4 xl:self-end flex-col mt-10 grid-cols-3 gap-2 sm:grid-cols-2 md:grid-cols-2 lg:col-span-2 relative">
             <div className="text-center sm:text-left">
               <span className="font-inter capitalize text-base">
                 <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />
@@ -124,6 +125,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
       <div className="mt-12 w-full border-t border-white pt-6 pb-12">
         <div className=" mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
           <div className="flex flex-row">

@@ -18,20 +18,26 @@ const AboutUs = () => {
 
             <div className="lg:py-16 text-center md:text-left">
               <h6 className="uppercase font-bold">about us</h6>
-              <h2 className="text-3xl capitalize font-bold sm:text-4xl">why you should choose us</h2>
+              <h2 className="text-3xl capitalize font-bold sm:text-4xl">
+                Get all your Assignments / Projects covered by our highly
+                experienced teams of Writers
+              </h2>
 
               <p className="mt-4 text-gray-600">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                qui hic atque tenetur quis eius quos ea neque sunt, accusantium
-                soluta minus veniam tempora deserunt? Molestiae eius quidem quam
-                repellat.
+                We know that students coming to our essay writing service expect
+                us to provide them with original content. That's exactly what we
+                do. We write a paper from scratch while following your
+                instructions.We assign expert tutors to ensure students get
+                detailed, step-by-step solutions for their assignments.Students
+                across the UK and other countries know who and how professional
+                we are.
               </p>
 
               <a
-                href="#"
+                href="#contact"
                 className="mt-8 inline-block rounded-full bg-pink-darkPink px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
               >
-                Read More
+                Know More
               </a>
             </div>
           </div>

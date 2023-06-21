@@ -4,19 +4,20 @@ import Download from '@/pages/Download'
 import Features from '@/pages/Features'
 import Footer from '@/pages/Footer'
 import HeroSection from '@/pages/HeroSection'
-import Instructor from '@/pages/Instructor'
+// import Instructor from '@/pages/Instructor'
 import Pricing from '@/pages/Pricing'
 import Services from '@/pages/Services'
 import Sessions from '@/pages/Sessions'
 import Testimonials from '@/pages/Testimonials'
-import Header from '@/pages/header'
+// import Header from '@/pages/header'
+import Header from '../components/header/Header.jsx'
 
 
 export default function Page() {
   return (
     <>
+      {/* <div className='mt-24 lg:mt-24 md:mt-26'> */}
       <Header/>
-      <div className='mt-24 lg:mt-24 md:mt-26'>
         <HeroSection/>
         <Services />
         <AboutUs />
@@ -24,11 +25,11 @@ export default function Page() {
         <Sessions />
         <Pricing />
         <Testimonials />
-        <Instructor />
+        {/* <Instructor /> */}
         <Contact />
         <Download />
         <Footer />
-      </div>
+      {/* </div> */}
     </>
   )
 }

@@ -35,13 +35,12 @@ const Services = () => {
               </div>
 
               <h2 className="mt-4 text-xl uppercase font-bold text-black">
-                Online Tutoring
+                Apps for Mobile & Web
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our doers will make very user-friendly and efficient
+                apps,exactly matching your needs. Boost your business now!
               </p>
             </a>
 
@@ -55,9 +54,8 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Tutorlancer is focused on ensuring to meet the needs of the
+                students around the globe for their assignments.
               </p>
             </a>
 
@@ -71,9 +69,9 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                We provide the best doers for you to interact with in real time
+                to get instant solutions for your problems. Pickup your phone
+                now !
               </p>
             </a>
 
@@ -87,9 +85,8 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                PSpice, Orcad, AutoCAD,Solidworks, and many more simulation
+                softwares, our Lab doers can handle them all.
               </p>
             </a>
 
@@ -103,9 +100,8 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Get the most professional project assistance from our PhD doers
+                who can guide and walk you through your project online.
               </p>
             </a>
 
@@ -119,9 +115,8 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Real-time tools and rich insights mean our support solution
+                amplifies your team for an unbeatable experience.
               </p>
             </a>
 
@@ -135,9 +130,8 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our Native essay doers help you meet university standards in
+                terms of writing and structuring of academic essays.
               </p>
             </a>
 
@@ -151,9 +145,8 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Stuck with homework? PhD doers have a distinctive mode of
+                expression assisting students to solve assignments flawlessly.
               </p>
             </a>
           </div>
