@@ -20,7 +20,7 @@ const HeroSection = () => {
     width: "-webkit-fill-available",
   };
   return (
-    <div className="sm:pt-24 sm:px-6 lg:py-16 lg:px-8">
+    <div className="pt-28 md:pt-24 sm:px-6 lg:py-16 lg:px-8">
       <section className="block relative bg-cover bg-center bg-no-repeat">
         <div className="absolute inset-0">
           <Image src={bgbanner} alt="background image" style={banner} />

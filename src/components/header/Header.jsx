@@ -57,7 +57,7 @@ function Header({ myRef }) {
         <div className="flex">
           <a
             href="#"
-            className="flex gap-2 items-center rounded-full bg-green-dark px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
+            className="flex gap-2 items-center rounded-full bg-green-dark md:px-8 md:py-4 px-4 py-2 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
           >
             <BsWhatsapp className="text-xl font-bold" />
             Chat on Whatsapp
