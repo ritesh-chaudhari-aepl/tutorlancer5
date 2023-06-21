@@ -78,7 +78,7 @@ const Download = () => {
             <span className="text-[15px] font-OpenSans font-light leading-0 text-center">
               clients rate on
               <br />
-              tutorlancer
+              Alpha Tutor
             </span>
           </div>
         </div>

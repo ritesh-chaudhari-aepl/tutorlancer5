@@ -30,9 +30,9 @@ const HeroSection = () => {
         <div className="relative mx-auto max-w-screen-xl px-4 py-2 sm:px-6 md:flex h-auto lg:items-center justify-between lg:px-8">
           <div className="md:w-1/2 text-center sm:text-left">
             <h1 class="text-3xl font-QuickSand font-extrabold lg:text-5xl">
-              The Best Way to take Help
+              Get Instant Help 24x7 Online Tutoring,
               <strong class="mt-3 block font-QuickSand font-extrabold text-pink-darkPink">
-                In your Academic
+                Live Sessions, Assignments
               </strong>
             </h1>
 

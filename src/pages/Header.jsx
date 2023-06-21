@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { HiOutlineX } from "react-icons/hi";
 import { AiOutlineMenu } from "react-icons/ai";
 import MobileNav from "@/components/navbar/MobileNav";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo2.png";
 import Image from "next/image";
 
 const Header = () => {
