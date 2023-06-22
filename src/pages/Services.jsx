@@ -54,7 +54,7 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Alpha Tutor is focused on ensuring to meet the needs of the
+                Good Grades is focused on ensuring to meet the needs of the
                 students around the globe for their assignments.
               </p>
             </a>

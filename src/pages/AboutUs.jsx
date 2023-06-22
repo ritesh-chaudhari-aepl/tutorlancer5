@@ -23,11 +23,16 @@ const AboutUs = () => {
               </h2>
 
               <p className="mt-4 text-gray-600">
-                Alpha Tutor is an online platform that connects online tutors
-                with students across the globe who seeks academic help. We help
-                students across the globe who are stuck with their subjects, by
-                connecting them with tutors. We aim to strategically connect
-                students and tutors online
+                Assignment help services by Good Grades are designed for the
+                students studying across the world. It includes assistance to
+                students with all sorts of issues faced by them in doing their
+                assignment successfully. As a part of completing a subject or a
+                course of study, it is a common practice within universities
+                across the world to entrust students with different types of
+                assignment to prove their learning. Direct interaction with
+                professors is sometimes uncomfortable for students, and this is
+                why GOOD GRADES has come up with providing immediate assistance
+                to students in completing their assignment.
               </p>
 
               <a

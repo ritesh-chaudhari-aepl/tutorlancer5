@@ -20,7 +20,7 @@ export default function Testimonial() {
           <div className="bg-white py-14 rounded-xl shadow-md shadow-btnColor p-6">
             <div className="font-sans ">
               {" "}
-              Alpha Tutor has helped me not only understand the subject but
+              Good Grades has helped me not only understand the subject but
               master the answering techniques required to obtain a istinction.
               the material is not only well compiled and organies but helps
               immensely with revision.{" "}

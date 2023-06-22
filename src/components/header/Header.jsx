@@ -6,7 +6,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import Nav from "./navbar/Navbar";
 import MobileNav from "./navbar/Mobilenav";
 import { BsWhatsapp } from "react-icons/bs";
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/logo3.png";
 import Image from "next/image";
 
 function Header({ myRef }) {

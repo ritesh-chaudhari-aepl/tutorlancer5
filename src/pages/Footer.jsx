@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../assets/logo2-nobg.png";
+import logo from "../assets/logo3.png";
 
 const Footer = () => {
   return (
@@ -15,11 +15,11 @@ const Footer = () => {
             </div>
             <div className="flex flex-col mt-10 gap-2 leading-[30px] ">
               <p>
-                Alpha Tutor is an online platform that connects online tutors
+                Good Grades is an online platform that connects online tutors
                 with students across the globe who seeks academic help.
               </p>
               <span className="font-inter">
-                <strong>Email</strong>: support@theAlpha Tutor.com
+                <strong>Email</strong>: support@theGood Grades.com
               </span>
               <span className="font-inter">
                 <strong>Phone</strong>: +91 628940944
@@ -161,7 +161,7 @@ const Footer = () => {
           </div>
 
           <p className="mt-4 text-[10px] sm:text-sm text-black sm:order-first sm:mt-0">
-            © 2022 Alpha Tutor.com. All rights reserved Abhay Education Pvt.
+            © 2022 Good Grades.com. All rights reserved Abhay Education Pvt.
             Ltd.
           </p>
         </div>

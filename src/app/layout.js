@@ -2,7 +2,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Alpha Tutor',
+  title: 'Good Grades',
   description: 'Solve you homework issues in a minute',
 }
 
