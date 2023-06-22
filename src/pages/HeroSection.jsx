@@ -1,6 +1,6 @@
 import React from "react";
-import bgbanner from "../assets/bgbanner.png";
-import bannerrightimage from "../assets/Online.png";
+import bgbanner from "../assets/banner-home5.png";
+import bannerrightimage from "../assets/Online-blue.png";
 import Image from "next/image";
 
 const HeroSection = () => {
@@ -44,14 +44,14 @@ const HeroSection = () => {
             <div class="mt-8 flex flex-wrap gap-4 text-center">
               <a
                 href="#contact"
-                class="block w-full rounded-full bg-pink-darkPink lg:px-12 sm:px-10 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                class="block w-full rounded-full bg-pink-darkPink lg:px-12 sm:px-10 py-3 text-sm font-medium text-white shadow hover:bg-blue-light focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
               >
                 Get Started
               </a>
 
               <a
                 href="#sessions"
-                class="block w-full rounded-full bg-white lg:px-12 sm:px-10 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
+                class="block w-full rounded-full bg-white lg:px-12 sm:px-10 py-3 text-sm font-medium text-pink-darkPink shadow hover:text-blue-light focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
               >
                 Learn More
               </a>

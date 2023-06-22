@@ -8,7 +8,7 @@ import HeroSection from '@/pages/HeroSection'
 import Pricing from '@/pages/Pricing'
 import Services from '@/pages/Services'
 import Sessions from '@/pages/Sessions'
-import Testimonials from '@/pages/Testimonials'
+// import Testimonials from '@/pages/Testimonials'
 // import Header from '@/pages/header'
 import Header from '../components/header/Header.jsx'
 
@@ -24,7 +24,7 @@ export default function Page() {
         <Features />
         <Sessions />
         <Pricing />
-        <Testimonials />
+        {/* <Testimonials /> */}
         {/* <Instructor /> */}
         <Contact />
         <Download />

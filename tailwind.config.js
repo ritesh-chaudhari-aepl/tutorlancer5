@@ -49,11 +49,14 @@ module.exports = {
           dark: "#1FAF38",
         },
         pink: {
-          light: "#FFDCE5",
-          pinkLight: "#feebee",
+          // light: "#FFDCE5",
+          light: "#d0e6f1",
+          // pinkLight: "#feebee",
           hotPink: "#FF5FA8",
-          darkPink: "#FF1850",
-          900:'#F63955'
+          pinkLight: "#d0e6f1",
+          darkPink: "#124d73",
+          // darkPink: "#FF1850",
+          900:'#F63955',
         },
         gray:{
           dark:'#808080',

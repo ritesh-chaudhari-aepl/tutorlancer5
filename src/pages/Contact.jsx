@@ -147,7 +147,7 @@ const Contact = () => {
               <div className="mt-4">
                 <button
                   type="submit"
-                  className="inline-block uppercase w-full rounded-full bg-pink-900 px-5 py-3 font-light text-white sm:w-auto"
+                  className="inline-block uppercase w-full rounded-full bg-pink-darkPink px-5 py-3 font-light text-white sm:w-auto"
                 >
                   Send Message
                 </button>

@@ -22,7 +22,7 @@ function Navbar() {
             <li key={name}>
               <a
                 onClick={() => handleScroll(href)}
-                className="text-black cursor-pointer hover:text-red-400  rounded-md font-Arvo sm:text-base font-medium transition"
+                className="text-black cursor-pointer hover:text-pink-darkPink  rounded-md font-Arvo sm:text-base font-medium transition"
                 // href={href}
               >
                 {name}
