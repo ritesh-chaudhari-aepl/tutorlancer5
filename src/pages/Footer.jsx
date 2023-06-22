@@ -19,10 +19,11 @@ const Footer = () => {
                 with students across the globe who seeks academic help.
               </p>
               <span className="font-inter">
-                <strong>Email</strong>: support@theGood Grades.com
+                <strong>Email</strong>: support@thegoodgrades.com
               </span>
               <span className="font-inter">
-                <strong>Phone</strong>: +91 628940944
+                <strong>Phone</strong>:{" "}
+                <a href="tel:917761814102">+91 77618-14102</a>
               </span>
               {/* <span className="font-inter capitalize text-base">
                 <strong>Address</strong>: c/o -s.k.mishra, c.m.r.i <br />

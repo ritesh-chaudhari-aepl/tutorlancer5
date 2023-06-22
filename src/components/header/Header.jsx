@@ -56,7 +56,7 @@ function Header({ myRef }) {
         {/* <div className="hidden sm:block"> */}
         <div className="flex">
           <a
-            href="#"
+            href="https://wa.me/message/TMOOJJS2LVVOH1"
             className="flex gap-2 items-center rounded-full bg-gradient-to-r from-pink-darkPink to-blue-light md:px-8 md:py-4 px-3 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
           >
             <BsWhatsapp className="md:text-xl md:font-bold text-lg font-normal" />
