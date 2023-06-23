@@ -17,15 +17,17 @@ const Features = () => {
   return (
     <section id="features" className="bg-white text-black">
       <div className="mx-auto max-w-screen-x  lg:mt-0 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
-        <div className="mx-auto max-w-lg text-center">
+        <div className="mx-auto max-w-2xl text-center">
           <div className="flex flex-col items-center">
             <h2 className="text-3xl font-bold mb-2 sm:text-4xl">Features</h2>
             <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
           </div>
           <p className="mt-4 text-black">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-            fugit consequuntur saepe laborum.
+            Good Grades is dedicated to offering the best academic help to
+            students. Over the years, Good Grades has grown in popularity as a
+            trusted name in online homework help among students from around the
+            globe. Here are some salient features of the services offered by
+            Good Grades.
           </p>
         </div>
 

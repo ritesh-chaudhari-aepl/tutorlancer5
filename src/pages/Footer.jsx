@@ -1,5 +1,6 @@
 import Image from "next/image";
 import logo from "../assets/logo3.png";
+// import terms from "./addeMeInApp/addeMeInApp/termandcond/page";
 
 const Footer = () => {
   return (
@@ -18,9 +19,9 @@ const Footer = () => {
                 Good Grades is an online platform that connects online tutors
                 with students across the globe who seeks academic help.
               </p>
-              <span className="font-inter">
+              {/* <span className="font-inter">
                 <strong>Email</strong>: support@thegoodgrades.com
-              </span>
+              </span> */}
               <span className="font-inter">
                 <strong>Phone</strong>:{" "}
                 <a href="tel:917761814102">+91 77618-14102</a>
@@ -130,17 +131,9 @@ const Footer = () => {
       <div className="mt-12 w-full border-t border-white pt-6 pb-12">
         <div className=" mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
           <div>
-            <a href="/termandcond" target="_blank">
-              Terms & conditions
-            </a>{" "}
-            |{" "}
-            <a href="/privacy" target="_blank">
-              Privacy Policy
-            </a>{" "}
-            |{" "}
-            <a href="/refund" target="_blank">
-              Refunds
-            </a>
+            <a href="/termandcond">Terms & conditions</a> |{" "}
+            <a href="/privacy">Privacy Policy</a> |{" "}
+            <a href="/refund">Refunds</a>
           </div>
 
           {/* <div className="flex flex-row">

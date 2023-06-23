@@ -18,13 +18,15 @@ const Services = () => {
     <div>
       <section id="services" className="bg-white text-black">
         <div className="mx-auto max-w-screen-x  lg:mt-16 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
-          <div className="mx-auto max-w-lg text-center">
+          <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold sm:text-4xl">Our Services</h2>
 
             <p className="mt-4 text-black">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+              Let us take care of your homework needs in the fastest and most
+              efficient way. This way you can spend your study time in actually
+              understanding the concepts and building a strong foundation.
+              Listed below are some key benefits of getting homework guidance
+              from our experts:
             </p>
           </div>
 
@@ -39,7 +41,7 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Our doers will make very user-friendly and efficient
+                Our tutors will make very user-friendly and efficient
                 apps,exactly matching your needs. Boost your business now!
               </p>
             </a>
@@ -69,7 +71,7 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                We provide the best doers for you to interact with in real time
+                We provide the best tutors for you to interact with in real time
                 to get instant solutions for your problems. Pickup your phone
                 now !
               </p>
@@ -86,7 +88,7 @@ const Services = () => {
 
               <p className="mt-1 text-sm text-black">
                 PSpice, Orcad, AutoCAD,Solidworks, and many more simulation
-                softwares, our Lab doers can handle them all.
+                softwares, our Lab tutors can handle them all.
               </p>
             </a>
 
@@ -100,7 +102,7 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Get the most professional project assistance from our PhD doers
+                Get the most professional project assistance from our PhD tutors
                 who can guide and walk you through your project online.
               </p>
             </a>
@@ -130,7 +132,7 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Our Native essay doers help you meet university standards in
+                Our Native essay tutors help you meet university standards in
                 terms of writing and structuring of academic essays.
               </p>
             </a>
@@ -145,7 +147,7 @@ const Services = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Stuck with homework? PhD doers have a distinctive mode of
+                Stuck with homework? PhD tutors have a distinctive mode of
                 expression assisting students to solve assignments flawlessly.
               </p>
             </a>
