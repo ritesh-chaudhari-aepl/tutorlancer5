@@ -129,7 +129,21 @@ const Footer = () => {
 
       <div className="mt-12 w-full border-t border-white pt-6 pb-12">
         <div className=" mx-auto max-w-screen-xl px-4 text-center sm:flex sm:justify-between sm:text-left">
-          <div className="flex flex-row">
+          <div>
+            <a href="/termandcond" target="_blank">
+              Terms & conditions
+            </a>{" "}
+            |{" "}
+            <a href="/privacy" target="_blank">
+              Privacy Policy
+            </a>{" "}
+            |{" "}
+            <a href="/refund" target="_blank">
+              Refunds
+            </a>
+          </div>
+
+          {/* <div className="flex flex-row">
             <div className="flex flex-row gap-3 ">
               <a
                 className="inline-block text-black transition hover:text-black/75"
@@ -159,7 +173,7 @@ const Footer = () => {
                 Refund
               </a>
             </div>
-          </div>
+          </div> */}
 
           <p className="mt-4 text-[10px] sm:text-sm text-black sm:order-first sm:mt-0">
             © 2022 Good Grades.com. All rights reserved Abhay Education Pvt.
