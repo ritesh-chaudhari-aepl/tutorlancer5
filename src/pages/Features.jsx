@@ -79,7 +79,7 @@ const Features = () => {
             </a>
           </div>
           <div>
-            <Image src={feature}></Image>
+            <Image src={feature} alt="features"></Image>
           </div>
           <div className="flex flex-col gap-4">
             <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">

@@ -9,7 +9,7 @@ import Services from '@/pages/Services'
 import Sessions from '@/pages/Sessions'
 // import Testimonials from '@/pages/Testimonials'
 // import Header from '@/pages/header'
-// import Header from '../components/header/Header.jsx'
+import Header from '../components/header/Header.jsx'
 // import Footer from '@/pages/Footer'
 
 
@@ -17,7 +17,7 @@ export default function Page() {
   return (
     <>
       {/* <div className='mt-24 lg:mt-24 md:mt-26'> */}
-      {/* <Header/> */}
+      <Header/>
         <HeroSection/>
         <Services />
         <AboutUs />

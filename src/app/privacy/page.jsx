@@ -2,8 +2,14 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="p-8 max-w-screen-2xl mx-auto pt-32">
-      <h1 className="font-bold font-serif text-2xl">Overview</h1>
+    <div className="p-8 max-w-screen-2xl mx-auto pt-16">
+      <a
+        className="inline-block cursor-pointer rounded-full bg-gradient-to-r from-pink-darkPink to-blue-light px-8 py-4 text-sm font-medium text-white transition hover:bg-indigo-700 capitalize"
+        href="/"
+      >
+        Back to Home
+      </a>
+      <h1 className="font-bold font-serif text-2xl pt-20">Overview</h1>
       <p className="p-2 font-sans text-base">
         We understand your concern about privacy and security of personal
         details. It is our ethical duty to make you aware of our privacy policy.
