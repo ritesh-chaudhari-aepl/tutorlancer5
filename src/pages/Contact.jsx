@@ -1,19 +1,72 @@
+"use client";
 import "./style.css";
+import axios from "axios";
+import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+
 const Contact = () => {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [phone, setPhone] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+
+  const showToastMessage = async () => {
+    const data = {
+      device_number: "Device 3",
+      name,
+      email,
+      phone,
+      subject,
+      message,
+    };
+
+    if (!name || !email || !phone || !subject || !message) {
+      toast.warning("Please fill all required data.", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      return;
+    }
+
+    const sendData = await axios.post(
+      "https://dev6apis.el.r.appspot.com/api/deviceWeb/saveDeviceWebData",
+      data
+    );
+    console.log(sendData.data.success);
+    if (sendData.data.success) {
+      toast.success("Message Sent Successfully", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+      setName("");
+      setEmail("");
+      setPhone("");
+      setSubject("");
+      setMessage("");
+    } else {
+      toast.error("Something went wrong", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+    }
+  };
+
   return (
-    <section className="bg-primaryWhite">
+    <section id="contact" className="bg-primaryWhite">
       <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-        <h3 className="text-center font-bold font-QuickSand text-3xl  sm:text-[28px]">
-          Contact Us <br />
-        </h3>
+        <div className="flex flex-col items-center">
+          <h2 className="text-3xl font-bold mb-2 sm:text-4xl">Contact Us</h2>
+          <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
+        </div>
         <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
           <div className=" p-8 lg:col-span-3 lg:p-12">
-            <form action="" className="space-y-4">
+            <form action="" onSubmit={showToastMessage} className="space-y-4">
               <div className="flex flex-row gap-4">
                 <label className="sr-only" htmlFor="name">
                   Name
                 </label>
                 <input
+                  value={name}
+                  required
+                  onChange={(e) => setName(e.target.value)}
                   className="w-full rounded-lg border-gray-200 p-3 text-sm"
                   placeholder="Name"
                   type="text"
@@ -23,6 +76,9 @@ const Contact = () => {
                   Email
                 </label>
                 <input
+                  value={email}
+                  required
+                  onChange={(e) => setEmail(e.target.value)}
                   className="w-full rounded-lg border-gray-200 p-3 text-sm"
                   placeholder="Email address"
                   type="email"
@@ -30,10 +86,13 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                {/* <div>
+              {/* <div className="grid grid-cols-1 gap-4 sm:grid-cols-2"> */}
+              {/* <div>
               <label className="sr-only" htmlFor="email">Email</label>
               <input
+              value={name}
+              required
+              onChange={(e)=> setName(e.target.value)}
                 className="w-full rounded-lg border-gray-200 p-3 text-sm"
                 placeholder="Email address"
                 type="email"
@@ -41,18 +100,33 @@ const Contact = () => {
               />
             </div> */}
 
-                <div>
-                  <label className="sr-only" htmlFor="phone">
-                    Subject
-                  </label>
-                  <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
-                    placeholder="Subject"
-                    type="text"
-                    id="subject"
-                  />
-                </div>
+              <div className="flex flex-row gap-4">
+                <label className="sr-only" htmlFor="phone">
+                  Phone
+                </label>
+                <input
+                  value={phone}
+                  required
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                  placeholder="Phone"
+                  type="text"
+                  id="phone"
+                />
+                <label className="sr-only" htmlFor="phone">
+                  Subject
+                </label>
+                <input
+                  value={subject}
+                  required
+                  onChange={(e) => setSubject(e.target.value)}
+                  className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                  placeholder="Subject"
+                  type="text"
+                  id="subject"
+                />
               </div>
+              {/* </div> */}
 
               <div>
                 <label className="sr-only" htmlFor="message">
@@ -60,6 +134,9 @@ const Contact = () => {
                 </label>
 
                 <textarea
+                  value={message}
+                  required
+                  onChange={(e) => setMessage(e.target.value)}
                   className="w-full rounded-lg border-gray-200 p-3 text-sm"
                   placeholder="Message"
                   rows="8"
@@ -70,10 +147,11 @@ const Contact = () => {
               <div className="mt-4">
                 <button
                   type="submit"
-                  className="inline-block uppercase w-full rounded-full bg-pink-900 px-5 py-3 font-light text-white sm:w-auto"
+                  className="inline-block uppercase w-full rounded-full bg-pink-darkPink px-5 py-3 font-light text-white sm:w-auto"
                 >
                   Send Message
                 </button>
+                <ToastContainer />
               </div>
             </form>
           </div>

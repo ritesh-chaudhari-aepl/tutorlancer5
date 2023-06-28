@@ -11,15 +11,18 @@ const Pricing = () => {
 
   return (
     <>
-      <section className="bg-white text-black">
+      <section id="pricing" className="bg-white text-black">
         <div className="mx-auto max-w-screen-x  lg:mt-16 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
-          <div className="mx-auto max-w-lg text-center">
-            <h2 className="text-3xl font-bold sm:text-4xl">Pricing</h2>
-
+          <div className="mx-auto max-w-2xl text-center">
+            <div className="flex flex-col items-center">
+              <h2 className="text-3xl font-bold mb-2 sm:text-4xl">Pricing</h2>
+              <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
+            </div>
             <p className="mt-4 text-black">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-              fugit consequuntur saepe laborum.
+              We have crafted different pricing plans based on different
+              learning needs. Choose pay-as-you-go plan to clear a few doubts
+              instantly or choose a more supported tutoring plan that can help
+              you advance your subject knowledge.
             </p>
           </div>
 

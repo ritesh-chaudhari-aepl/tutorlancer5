@@ -2,12 +2,12 @@
 import React from "react";
 import Image from "next/image";
 import feature from "../assets/feature5.png";
-import HeadphonesOutlinedIcon from '@mui/icons-material/HeadphonesOutlined';
-import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
-import SellIcon from '@mui/icons-material/Sell';
-import FindInPageOutlinedIcon from '@mui/icons-material/FindInPageOutlined';
-import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
-import DonutLargeOutlinedIcon from '@mui/icons-material/DonutLargeOutlined';
+import HeadphonesOutlinedIcon from "@mui/icons-material/HeadphonesOutlined";
+import AccessAlarmIcon from "@mui/icons-material/AccessAlarm";
+import SellIcon from "@mui/icons-material/Sell";
+import FindInPageOutlinedIcon from "@mui/icons-material/FindInPageOutlined";
+import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
+import DonutLargeOutlinedIcon from "@mui/icons-material/DonutLargeOutlined";
 
 const Features = () => {
   const iconstyle = {
@@ -15,15 +15,19 @@ const Features = () => {
   };
 
   return (
-    <section className="bg-white text-black">
+    <section id="features" className="bg-white text-black">
       <div className="mx-auto max-w-screen-x  lg:mt-0 md:mt-0 px-4 py-14 sm:py-22 sm:px-6 lg:py-16 lg:px-8">
-        <div className="mx-auto max-w-lg text-center">
-          <h2 className="text-3xl font-bold sm:text-4xl">Features</h2>
-
+        <div className="mx-auto max-w-2xl text-center">
+          <div className="flex flex-col items-center">
+            <h2 className="text-3xl font-bold mb-2 sm:text-4xl">Features</h2>
+            <span className="h-[2px] bg-pink-darkPink  w-16 mb-4" />
+          </div>
           <p className="mt-4 text-black">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequuntur aliquam doloribus nesciunt eos fugiat. Vitae aperiam
-            fugit consequuntur saepe laborum.
+            Good Grades is dedicated to offering the best academic help to
+            students. Over the years, Good Grades has grown in popularity as a
+            trusted name in online homework help among students from around the
+            globe. Here are some salient features of the services offered by
+            Good Grades.
           </p>
         </div>
 
@@ -39,9 +43,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Good Grades is focused on ensuring to meet the needs of the
+                students around the globe for their assignments.
               </p>
             </a>
 
@@ -55,13 +58,12 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                We make sure your work reach you on time because we know if it's
+                not with you on-time, it will be a waste.
               </p>
             </a>
 
-            <a className="text-center items-center flex flex-col md:items-end rounded-xl border text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="sm:text-center items-center flex flex-col md:items-end rounded-xl border md:text-right border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <SellIcon style={iconstyle} />
               </div>
@@ -71,17 +73,16 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Our prices are reasonable and pocket-friendly because we
+                understand you better.
               </p>
             </a>
           </div>
           <div>
-            <Image src={feature}></Image>
+            <Image src={feature} alt="features"></Image>
           </div>
           <div className="flex flex-col gap-4">
-            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <FindInPageOutlinedIcon style={iconstyle} />
               </div>
@@ -91,13 +92,12 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Get plagiarism free work where each and every assignment is
+                written from scratch to ensure that no content is plagiarized.
               </p>
             </a>
 
-            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <MonetizationOnOutlinedIcon style={iconstyle} />
               </div>
@@ -107,13 +107,12 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                Your payment is secured by paypal and razorpay, upto 100% money
+                back guarantee.
               </p>
             </a>
 
-            <a className="text-center items-center flex flex-col rounded-xl border md:text-left border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
+            <a className="text-center items-center flex flex-col rounded-xl border md:text-left md:items-start border-pink-500/10 p-8 shadow-md shadow-pink-light transition hover:border-pink-light hover:shadow-pink-light">
               <div className="rounded-full bg-pink-pinkLight w-fit text-pink-darkPink p-4 hover:text-white hover:bg-pink-darkPink transition hover:border-pink-darkPink">
                 <DonutLargeOutlinedIcon style={iconstyle} />
               </div>
@@ -123,9 +122,8 @@ const Features = () => {
               </h2>
 
               <p className="mt-1 text-sm text-black">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut
-                quo possimus adipisci distinctio alias voluptatum blanditiis
-                laudantium.
+                You get 100% customized work as per your requirements, we are
+                always willing to accommodate.
               </p>
             </a>
           </div>
